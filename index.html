@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="favorat icon" href="logo1.png">
+    <title>MovieNest Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <style>
+      img:hover{
+        transform: scale(0.9, 0.9);
+      }
+      span{
+        color: red;
+      }
+
+    </style>
+</head>
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+  
+        <!-- MovieNest on the left -->
+        <div class="d-flex align-items-center me-auto">
+          <h1 id="Heading" class="text-white mb-0 fs-1">MovieNest</h1>
+        </div>
+  
+        <!-- Centered Navigation -->
+        <div class="mx-auto">
+          <ul class="nav justify-content-center mb-0">
+            <li><a href="index.html" class="nav-link px-3 text-secondary">Home</a></li>
+            <li><a href="Upcoming.html" class="nav-link px-3 text-white">Movies</a></li>
+            <li><a href="#" class="nav-link px-3 text-white">Loyalty</a></li>
+          </ul>
+        </div>
+  
+        <!-- Search and Auth Buttons on the right -->
+        <div class="d-flex align-items-center ms-auto">
+          <form class="me-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
+  
+      </div>
+    </div>
+  </header>
+  
+  
+
+      <h2 id="h21"><span>NOW</span> SHOWING</h2>
+      <main class="movies">
+        <div class="movie">
+            <img src="images/last breath movie.jpg" alt="Last Breath" height="265"/>
+            <h3>Last Breath</h3>
+            <a href="Movies Show Times/last breath.html">
+              <button class="book-btn">Book Now</button>
+            </a>
+        </div>
+
+        <div class="movie">
+          <img src="images/mincraft movie.jpg" alt="Minecraft" height="265"/>
+          <h2> A Minecraft</h2>
+          <a href="Movies Show Times/mincraft.html">
+             <button class="book-btn">Book Now</button>
+          </a>
+        </div>
+    
+        <div class="movie">
+          <img src="images/untill down.jpg" alt="Until Dawn" height="266"/>
+          <h2>Until Dawn</h2>
+          <a href="Movies Show Times/untill down.html">
+            <button class="book-btn">Book Now</button>
+          </a>
+        </div>
+        <div class="movie">
+            <img src="images/a working man movie.jpg" alt="A working man" height="265"/>
+            <h2>WorkingMan</h2>
+            <a href="Movies Show Times/Aworkingman.html">
+               <button class="book-btn">Book Now</button>
+            </a>
+        </div>
+        <div class="movie">
+            <img src="images/siko siko movie.jpg" alt="Siko Siko" height="265"/>
+            <h2>siko siko</h2>
+            <a href="Movies Show Times/sikosiko.html">
+               <button class="book-btn">Book Now</button>
+            </a>
+        </div>
+      </main>
+
+      <section id="footer">
+        <div id="footer-inner" style="display: flex; flex-direction: column; align-items: center; padding: 20px; background-color: #222; color: #fff;">
+          
+          <!-- Footer Top: Three Columns -->
+          <div class="footer-links" style="display: flex; justify-content: space-between; width: 100%; max-width: 900px;">
+            
+            <!-- Column 1: Left -->
+            <div class="col col-left">
+              <div class="col-inner">
+                <a href="index.html" style="color: #fff; text-decoration: none;">Home</a>
+              </div>
+              <div class="col-inner">
+                <a href="../Upcoming.html" style="color: #fff; text-decoration: none;">Coming Soon</a>
+              </div>
+            </div>
+            
+            <!-- Column 2: Center-Right -->
+            <div class="col col-center">
+              <div class="col-inner">
+                <a href="ratings.html" style="color: #fff; text-decoration: none;">Ratings</a>
+              </div>
+              <div class="col-inner">
+                <a href="contact.html" style="color: #fff; text-decoration: none;">Contact Us</a>
+              </div>
+            </div>
+      
+            <!-- Column 3: Right-most -->
+            <div class="col col-legal">
+              <div class="col-inner">
+                <a href="terms.html" style="color: #aaa; text-decoration: none;">Terms and Conditions</a>
+              </div>
+              <div class="col-inner">
+                <a href="privacy.html" style="color: #aaa; text-decoration: none;">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Footer Bottom -->
+          <div class="copyright" style="margin-top: 30px; font-size: 0.9em; text-align: center;">
+            &copy; 2025 MovieBooking Inc. All rights reserved.
+          </div>
+      
+        </div>
+     </section>
+      
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      
+    </body>
+    </html>
+</body>
+</html>
